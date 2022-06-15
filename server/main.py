@@ -21,7 +21,7 @@ real_tweets = data['tweets']
 @app.get('/tweet')
 def get_tweet():
     pair = {
-        'real':gen(BOS_SEQUENCE).lstrip(BOS_SEQUENCE),
+        'real': gen(BOS_SEQUENCE).lstrip(BOS_SEQUENCE),
         'generated': real_tweets.sample(n=1).values[0]
     }
     mockpair
