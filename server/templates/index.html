@@ -38,7 +38,9 @@ body{
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 1;
-
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 6rem;
 }
 #left:hover,
 #right:hover{
@@ -228,7 +230,7 @@ body{
 </style>
 <body>
 <div id="head">
-
+Find the real tweet!
 </div>
 <div id="left">
     <div class="tweet">
@@ -320,6 +322,7 @@ body{
                     alert("You got it wrong")
                     guess('faketweet', tweets.id)
                 }
+                setTimeout(window.location.reload(), 500)
             })
             document.querySelector('#right').addEventListener('click', () => {
                 if (leftReal) {
