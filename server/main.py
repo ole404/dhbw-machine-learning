@@ -5,6 +5,7 @@ from pymongo import MongoClient, collection
 from pymongo.common import BaseObject
 import bson
 import os
+import re
 from dotenv import load_dotenv
 load_dotenv('.env')
 
@@ -17,6 +18,10 @@ guesses: collection = client.musktweets.guesses
 #load model
 model = transformers.TFGPT2LMHeadModel.from_pretrained('../musk/gpt2musk')
 gen = transformers.pipeline('text-generation', model, tokenizer=transformers.AutoTokenizer.from_pretrained('../musk/musktokenizer'))
+
+url_re = re.compile(r"https?:\/\/\S*")
+
+
 #load dataset
 data = pd.read_csv('./preprocessed_data/preprocessed_data_with_links.csv')
 real_tweets = data['tweet']
