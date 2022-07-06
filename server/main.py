@@ -31,9 +31,26 @@ def home():
     return render_template('index.html')
 
 @app.get('/tweet')
-def get_tweet():
+def get_tweet_db():
+    raw_pair = list(pairs.aggregate([{"$sample": { "size": 1 }}]))[0]
+
     pair = {
-        'generated': gen(BOS_SEQUENCE)[0]['generated_text'].lstrip(BOS_SEQUENCE),
+        'id': str(raw_pair['_id']),
+        'generated': raw_pair['generated'],
+        'real': raw_pair['real']
+    }
+    print (pair)
+    return jsonify(
+        pair
+    )
+
+def get_tweet_gen():
+    raw_generated = ""
+    while (len(raw_generated) == 0):
+        raw_generated = gen(BOS_SEQUENCE)[0]['generated_text'].lstrip(BOS_SEQUENCE)
+    generated = url_re.sub("<link>", raw_generated)
+    pair = {
+        'generated': generated,
         'real': real_tweets.sample(n=1).values[0]
     }
     iOresult = pairs.insert_one(pair)
@@ -47,6 +64,7 @@ def get_tweet():
 
 @app.post('/guess')
 def guess():
+    print("well fuck?")
     req = request.json
     guesses.insert_one(req)
     return jsonify(success=True)
