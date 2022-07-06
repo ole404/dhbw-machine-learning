@@ -44,11 +44,13 @@ def get_tweet_db():
         pair
     )
 
+
 def get_tweet_gen():
     raw_generated = ""
-    while (len(raw_generated) == 0):
-        raw_generated = gen(BOS_SEQUENCE)[0]['generated_text'].lstrip(BOS_SEQUENCE)
-    generated = url_re.sub("<link>", raw_generated)
+    while (len(raw_generated) == 0 or raw_generated == "<link>"):
+        raw_generated = gen(BOS_SEQUENCE)[0]['generated_text'].lstrip(BOS_SEQUENCE).strip()
+        raw_generated = url_re.sub("<link>", raw_generated)
+    generated = raw_generated
     pair = {
         'generated': generated,
         'real': real_tweets.sample(n=1).values[0]
@@ -60,6 +62,9 @@ def get_tweet_gen():
     return jsonify(
         pair
     )
+
+
+
 
 
 @app.post('/guess')

@@ -319,21 +319,24 @@ Wähle den echten Tweet aus!
                 if (leftReal) {
                     guess('realtweet', tweets.id)
                     alert("You got it right")
+
                 } else {
                     guess('faketweet', tweets.id)
                     alert("You got it wrong")
+
                 }
                 setTimeout(window.location.reload(), 3000)
             })
             document.querySelector('#right').addEventListener('click', () => {
                 if (leftReal) {
-                    alert("You got it wrong")
                     guess('faketweet', tweets.id)
+                    alert("You got it wrong")
+
                 } else {
-                    alert("You got it right")
                     guess('realtweet', tweets.id)
+                    alert("You got it right")
                 }
-                setTimeout(window.location.reload(), 500)
+                setTimeout(()=>{window.location.reload()}, 3000)
             })
         } catch (e) {
             console.log(e)
