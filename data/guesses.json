@@ -1,0 +1,469 @@
+[{
+  "_id": {
+    "$oid": "62c52ce3e162c662b291562d"
+  },
+  "id": "62c4da83ad1514626e7a20bf",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52cece162c662b291562e"
+  },
+  "id": "62c4dbadad1514626e7a20d9",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52cf0e162c662b291562f"
+  },
+  "id": "62c4dcc5ad1514626e7a2102",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52cf5e162c662b2915630"
+  },
+  "id": "62c4dbd5ad1514626e7a20dc",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52cf6e162c662b2915631"
+  },
+  "id": "62c4dc96ad1514626e7a20fb",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52cf9e162c662b2915632"
+  },
+  "id": "62c4e2dec481efe54bb3496d",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52cfae162c662b2915633"
+  },
+  "id": "62c4dc96ad1514626e7a20fb",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d04e162c662b2915634"
+  },
+  "id": "62c4db2bad1514626e7a20d3",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d04e162c662b2915635"
+  },
+  "id": "62c4dc13ad1514626e7a20e6",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d05e162c662b2915636"
+  },
+  "id": "62c4da83ad1514626e7a20bf",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d05e162c662b2915637"
+  },
+  "id": "62c4e357c481efe54bb34978",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d07e162c662b2915638"
+  },
+  "id": "62c4dcc5ad1514626e7a2102",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d07e162c662b2915639"
+  },
+  "id": "62c4dbb4ad1514626e7a20da",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d07e162c662b291563a"
+  },
+  "id": "62c4dab5ad1514626e7a20c4",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d0be162c662b291563b"
+  },
+  "id": "62c4db36ad1514626e7a20d5",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d0be162c662b291563c"
+  },
+  "id": "62c4dcc5ad1514626e7a2102",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d0ce162c662b291563d"
+  },
+  "id": "62c4dc44ad1514626e7a20ed",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d0ee162c662b291563e"
+  },
+  "id": "62c4daeaad1514626e7a20cb",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d10e162c662b291563f"
+  },
+  "id": "62c4da83ad1514626e7a20bf",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d12e162c662b2915640"
+  },
+  "id": "62c4dc13ad1514626e7a20e6",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d12e162c662b2915641"
+  },
+  "id": "62c4e357c481efe54bb34978",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d13e162c662b2915642"
+  },
+  "id": "62c4e06aad1514626e7a2103",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d15e162c662b2915643"
+  },
+  "id": "62c4dc13ad1514626e7a20e6",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d16e162c662b2915644"
+  },
+  "id": "62c4e32fc481efe54bb34975",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d17e162c662b2915645"
+  },
+  "id": "62c4dc05ad1514626e7a20e3",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d18e162c662b2915646"
+  },
+  "id": "62c4e2ebc481efe54bb3496f",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d18e162c662b2915647"
+  },
+  "id": "62c4e357c481efe54bb34978",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d18e162c662b2915648"
+  },
+  "id": "62c4dcbcad1514626e7a2100",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d1ae162c662b2915649"
+  },
+  "id": "62c4dab5ad1514626e7a20c4",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d1ae162c662b291564a"
+  },
+  "id": "62c4dab5ad1514626e7a20c4",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d1be162c662b291564b"
+  },
+  "id": "62c4e1bcad1514626e7a210b",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d1de162c662b291564c"
+  },
+  "id": "62c4e23b57f5fcfa85c6849c",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d1de162c662b291564d"
+  },
+  "id": "62c4dab5ad1514626e7a20c4",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d1ee162c662b291564e"
+  },
+  "id": "62c4e33ec481efe54bb34976",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d1fe162c662b291564f"
+  },
+  "id": "62c4e06aad1514626e7a2103",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d1fe162c662b2915650"
+  },
+  "id": "62c4dc44ad1514626e7a20ed",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d20e162c662b2915651"
+  },
+  "id": "62c4e23b57f5fcfa85c6849c",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d21e162c662b2915652"
+  },
+  "id": "62c4dc44ad1514626e7a20ed",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d27e162c662b2915653"
+  },
+  "id": "62c4dc44ad1514626e7a20ed",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d27e162c662b2915654"
+  },
+  "id": "62c4dc0bad1514626e7a20e5",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d28e162c662b2915655"
+  },
+  "id": "62c4dc96ad1514626e7a20fb",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d28e162c662b2915656"
+  },
+  "id": "62c4e2ebc481efe54bb3496f",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d29e162c662b2915657"
+  },
+  "id": "62c4da88ad1514626e7a20c1",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d2ae162c662b2915658"
+  },
+  "id": "62c4dc44ad1514626e7a20ed",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d2de162c662b2915659"
+  },
+  "id": "62c4dcb8ad1514626e7a20ff",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d2ee162c662b291565a"
+  },
+  "id": "62c4daeaad1514626e7a20cb",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d2ee162c662b291565b"
+  },
+  "id": "62c4dbd2ad1514626e7a20db",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d34e162c662b291565c"
+  },
+  "id": "62c4db2fad1514626e7a20d4",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d36e162c662b291565d"
+  },
+  "id": "62c4e2ebc481efe54bb3496f",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d37e162c662b291565e"
+  },
+  "id": "62c4e083ad1514626e7a2105",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d3ae162c662b291565f"
+  },
+  "id": "62c4e1bcad1514626e7a210b",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d3ce162c662b2915660"
+  },
+  "id": "62c4da61ad1514626e7a20b9",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d3fe162c662b2915661"
+  },
+  "id": "62c4db19ad1514626e7a20d0",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d3fe162c662b2915662"
+  },
+  "id": "62c4e33ec481efe54bb34976",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d41e162c662b2915663"
+  },
+  "id": "62c4e30bc481efe54bb34971",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d42e162c662b2915664"
+  },
+  "id": "62c4e30bc481efe54bb34971",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d42e162c662b2915665"
+  },
+  "id": "62c4dafcad1514626e7a20ce",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d43e162c662b2915666"
+  },
+  "id": "62c4e30bc481efe54bb34971",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d43e162c662b2915667"
+  },
+  "id": "62c4e084ad1514626e7a2106",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d45e162c662b2915668"
+  },
+  "id": "62c4dc96ad1514626e7a20fb",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d47e162c662b2915669"
+  },
+  "id": "62c4dcb4ad1514626e7a20fe",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d48e162c662b291566a"
+  },
+  "id": "62c4da83ad1514626e7a20bf",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d48e162c662b291566b"
+  },
+  "id": "62c4dbd2ad1514626e7a20db",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d49e162c662b291566c"
+  },
+  "id": "62c4dca4ad1514626e7a20fd",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d4fe162c662b291566d"
+  },
+  "id": "62c4dc3cad1514626e7a20ec",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d4fe162c662b291566e"
+  },
+  "id": "62c4da88ad1514626e7a20c1",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d53e162c662b291566f"
+  },
+  "id": "62c4dbd2ad1514626e7a20db",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d55e162c662b2915670"
+  },
+  "id": "62c4da61ad1514626e7a20b9",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d55e162c662b2915671"
+  },
+  "id": "62c4dbdfad1514626e7a20de",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d5ae162c662b2915672"
+  },
+  "id": "62c4db19ad1514626e7a20d0",
+  "guess": "realtweet"
+},{
+  "_id": {
+    "$oid": "62c52d5ee162c662b2915673"
+  },
+  "id": "62c4e326c481efe54bb34974",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d63e162c662b2915674"
+  },
+  "id": "62c4dc3cad1514626e7a20ec",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d66e162c662b2915675"
+  },
+  "id": "62c4dc3cad1514626e7a20ec",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d67e162c662b2915676"
+  },
+  "id": "62c4dc3cad1514626e7a20ec",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d68e162c662b2915677"
+  },
+  "id": "62c4dc3cad1514626e7a20ec",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d69e162c662b2915678"
+  },
+  "id": "62c4dc3cad1514626e7a20ec",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d6de162c662b2915679"
+  },
+  "id": "62c4dca4ad1514626e7a20fd",
+  "guess": "faketweet"
+},{
+  "_id": {
+    "$oid": "62c52d85e162c662b291567a"
+  },
+  "id": "62c4da82ad1514626e7a20be",
+  "guess": "faketweet"
+}]
